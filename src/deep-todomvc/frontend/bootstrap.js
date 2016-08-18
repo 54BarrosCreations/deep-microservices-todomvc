@@ -3,9 +3,11 @@
 'format es6';
 
 export function configLoad() {
-  return System.import('/deep-todomvc/js/config.core.js');
+  return 'asd';
 }
 
-export default function todo() {
-  return System.import('/deep-todomvc/js/app/angular/index.js');
+export default function asd() {
+  return '';
 }
+
+console.log('new2');

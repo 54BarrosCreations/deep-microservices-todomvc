@@ -15,7 +15,7 @@
       "email": "drosca@mitocgroup.com"
     }
   ],
-  "frontendEngine": ["angular"],
+  "frontendEngine": ["angular2"],
   "dependencies": {
   }
 }

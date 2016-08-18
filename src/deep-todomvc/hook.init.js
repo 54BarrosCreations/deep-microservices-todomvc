@@ -3,8 +3,7 @@
 module.exports = function(callback) {
   if (!this.microservice.property.rootMicroservice) {
     console.error('Seems like there is no root microservice to copy learn.json to. Skipping...');
-    callback();
-    return;
+    return callback();
   }
 
   var exec = require('child_process').exec;

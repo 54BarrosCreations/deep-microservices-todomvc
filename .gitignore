@@ -139,3 +139,8 @@ _vars.sh
 **/.sass-cache/
 **/coverage/
 **/coverages/
+
+# Angular 2 modules folders
+src/**/frontend/js/typings
+
+_build
